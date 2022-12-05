@@ -2,7 +2,8 @@
 PRODUCT_PACKAGES += \
     AsusDeskClock \
     PrcCalculator \
-    PrcGallery2 
+    PrcGallery2 \
+    messaging
 
 # Audio
 PRODUCT_COPY_FILES += \

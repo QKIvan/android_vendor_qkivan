@@ -1,6 +1,7 @@
 # Apps
 PRODUCT_PACKAGES += \
     AsusDeskClock \
+    AsusSoundRecorder \
     PrcCalculator \
     PrcGallery2 \
     messaging

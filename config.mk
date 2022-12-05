@@ -2,8 +2,7 @@
 PRODUCT_PACKAGES += \
     AsusDeskClock \
     PrcCalculator \
-    PrcGallery2 \
-    NTVoiceRecorder 
+    PrcGallery2 
 
 # Audio
 PRODUCT_COPY_FILES += \

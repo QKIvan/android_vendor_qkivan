@@ -31,12 +31,3 @@ android_app_import {
         product_specific: true,
         overrides: ["Gallery2"],
 }
-
-android_app_import {
-        name: "NTVoiceRecorder",
-        apk: "NTVoiceRecorder/NTVoiceRecorder.apk",
-        optional_uses_libs: ["androidx.window.extensions","androidx.window.sidecar"],
-        presigned: true,
-        privileged: true,
-        product_specific: true,
-}

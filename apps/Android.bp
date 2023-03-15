@@ -62,3 +62,15 @@ android_app_import {
         product_specific: true,
         overrides: ["messaging"],
 }
+
+android_app_import {
+    name: "Fcitx5Android",
+    owner: "fcitx5-android",
+    apk: "Fcitx5Android/fcitx5android.apk",
+    certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+    product_specific: true,
+}
+

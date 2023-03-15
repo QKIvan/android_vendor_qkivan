@@ -6,7 +6,8 @@ PRODUCT_PACKAGES += \
     PrcCalculator \
     PrcCalendar \
     PrcGallery2 \
-    messaging
+    messaging \
+    Fcitx5Android
 
 # Flags
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true

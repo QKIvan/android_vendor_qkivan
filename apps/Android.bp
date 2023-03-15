@@ -74,3 +74,13 @@ android_app_import {
     product_specific: true,
 }
 
+android_app_import {
+    name: "GeometricWeather",
+    owner: "WangDaYeeeeee",
+    apk: "GeometricWeather/GeometricWeather.apk",
+    certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+    product_specific: true,
+}

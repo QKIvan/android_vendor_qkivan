@@ -7,7 +7,8 @@ PRODUCT_PACKAGES += \
     PrcCalendar \
     PrcGallery2 \
     messaging \
-    Fcitx5Android
+    Fcitx5Android \
+    GeometricWeather
 
 # Flags
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true

@@ -1,13 +1,11 @@
 # vendor_addons
 
-This is a repo to replace some system apps.(For Project-Kaleidoscope)
-
 ## How to use
 
 ### 1.Clone this repo
 
 ```
-git clone https://github.com/QKIvan-Projects/vendor_addons addons -b sunflowerleaf
+git clone https://github.com/QKIvan-Projects/vendor_addons addons -b main
 ```
 
 ### 2.Inherit this repo
@@ -15,41 +13,31 @@ git clone https://github.com/QKIvan-Projects/vendor_addons addons -b sunflowerle
 Add
 
 ```
-$(call inherit-product, vendor/addons/config.mk)
+$(call inherit-product-if-exist, vendor/addons/config.mk)
 ```
 
 in your device tree.
 
-## Addons List
-
-## Software:
+## Add:
 
 - AsusDeskClock 
+- Fcitx5Android
+- GeometricWeather
+- LenovoAccount
+- Messaging
 - MotoAudioRecorder
-- LenovoAccount (To support PrcCalendar)
+- LenovoAccount
 - PrcCalculator
 - PrcCalendar
 - PrcGallery2
-- Yuyukomessaging
 
-## Audio:
+## Remove
 
-- Nothing audio
-
-Tips: Nothing audio is not enabled by default,If you want to enable Nothing Audio,add
-
-```
-#### Audio
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/addons/audio,$(TARGET_COPY_OUT_PRODUCT)/media/audio)
-
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.ringtone=01_pneumatic.ogg \
-    ro.config.notification_sound=01_oi!.ogg \
-    ro.config.alarm_alert=01_bedside.ogg
-```
-
-to config.mk
+- AlarmClock
+- messaging
+- Calculator
+- Calendar
+- Gallery2
 
 ## Credits
 
@@ -59,8 +47,6 @@ Special thanks to the following people or projects:
 
 - [Yuyuko AOSP Mod](https://github.com/YuyukoAOSPMod)
 
+- [EndCredits](https://github.com/EndCredits)
+
 - wushidi
-
-- Motorola
-
-- ASUS

@@ -1,11 +1,11 @@
-# vendor_addons
+# vendor_qkivan
 
 ## How to use
 
 ### 1.Clone this repo
 
 ```
-git clone https://github.com/QKIvan-ISLAND/vendor_addons addons -b WIP
+git clone https://github.com/QKIvan-ISLAND/vendor_qkivan vendor/qkivan -b WIP
 ```
 
 ### 2.Inherit this repo
@@ -13,7 +13,7 @@ git clone https://github.com/QKIvan-ISLAND/vendor_addons addons -b WIP
 Add
 
 ```
-$(call inherit-product-if-exist, vendor/addons/config.mk)
+$(call inherit-product-if-exist, vendor/qkivan/config.mk)
 ```
 
 in your device tree.

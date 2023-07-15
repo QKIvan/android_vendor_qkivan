@@ -5,7 +5,7 @@
 ### 1.Clone this repo
 
 ```
-git clone https://github.com/QKIvan-Projects/vendor_addons addons -b main
+git clone https://github.com/QKIvan-ISLAND/vendor_addons addons -b WIP
 ```
 
 ### 2.Inherit this repo
